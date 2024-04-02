@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url("../public/fonts/NotoSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NotoSans-SemiBold;
+    src: url("../public//NotoSans-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NotoSans-Bold;
+    src: url("../public//NotoSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer components {
+    .auth-container {
+        @apply min-h-screen flex flex-col sm:justify-center items-center sm:pt-0;
+    }
+    .auth-container-bgr-home {
+        @apply bg-home text-text;
+    }
+    
+    .auth-content-title-big {
+        @apply text-3xl font-semibold;
+    }
+    .auth-content-title {
+        @apply text-xl font-semibold;
+    }
+
+    .auth-btn-student {
+        @apply h-16 pt-2 grow text-center bg-student text-white hover:bg-studentHover rounded;
+    }
+    .auth-btn-teacher {
+        @apply h-16 pt-2 grow text-center bg-teacher text-white hover:bg-teacherHover rounded;
+    }
+}
