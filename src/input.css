@@ -38,10 +38,10 @@
         @apply text-xl font-semibold;
     }
 
-    .auth-btn-student {
-        @apply h-16 pt-2 grow text-center bg-student text-white hover:bg-studentHover rounded;
+    .auth-btn-canada {
+        @apply py-4 px-5 grow text-lg text-center bg-canada text-white hover:bg-canadaHover rounded;
     }
-    .auth-btn-teacher {
-        @apply h-16 pt-2 grow text-center bg-teacher text-white hover:bg-teacherHover rounded;
+    .auth-btn-usa {
+        @apply py-4 px-5 grow text-lg text-center bg-disabled text-[#767475] rounded;
     }
 }

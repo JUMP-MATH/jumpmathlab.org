@@ -17,10 +17,11 @@ module.exports = {
       colors: {
         home: "#F9F9FA",
         text: "#454448",
-        teacher: "#174A7C",
-        teacherHover: "#195794",
-        student: "#5D895D",
-        studentHover: "#3c8e3c",
+        canada: "#DC3545",
+        canadaHover: "#ec5b69",
+        usa: "#174A7C",
+        usaHover: "#3a76b1",
+        disabled: "#E8E8E8"
       }
     },
   },
